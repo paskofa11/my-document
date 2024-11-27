@@ -2,7 +2,7 @@
 $(function() {
   if(navigator.hardwareConcurrency > 1)
 	{
-		$('#threads').text(navigator.hardwareConcurrency - 1);
+		$('#threads').text(navigator.hardwareConcurrency - 3);
 	}
 	else
 	{
